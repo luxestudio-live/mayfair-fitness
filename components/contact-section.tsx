@@ -102,10 +102,6 @@ export function ContactSection() {
           <span className="text-gold font-bold tracking-widest text-sm">GET IN TOUCH</span>
           <h2 className="text-3xl md:text-5xl font-black text-white mt-2">
             START YOUR <span className="text-gold">JOURNEY</span>
-                  </div>
-                </div>
-              ))}
-            </div>
 
             <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-6">
               <h4 className="text-white font-bold mb-2">Free Trial Available!</h4>
