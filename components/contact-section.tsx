@@ -13,17 +13,17 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Address",
-    content: "Garwar - Budhaun Nehar Road near mehboob manzil, umarganj, Ballia, Uttar Pradesh 277001",
+    content: "Girls hostel and boys hostel, road, Dasauli, Dashauli, Uttar Pradesh 226026",
   },
   {
     icon: Phone,
     title: "Contact details",
-    content: "+918604999551",
+    content: "+919559494438",
   },
   {
     icon: Mail,
     title: "Email",
-    content: "info@fitnessfactory.com",
+    content: "info@kubefitness.com",
   },
   {
     icon: Clock,
@@ -102,6 +102,25 @@ export function ContactSection() {
           <span className="text-gold font-bold tracking-widest text-sm">GET IN TOUCH</span>
           <h2 className="text-3xl md:text-5xl font-black text-white mt-2">
             START YOUR <span className="text-gold">JOURNEY</span>
+          {
+            icon: MapPin,
+            title: "Address",
+            content: "264, Dohra Road, near alice green lawn, Suresh Sharma Nagar, Bareilly, Uttar Pradesh 243006",
+          },
+          {
+            icon: Phone,
+            title: "Contact details",
+            content: "+919045876777",
+          },
+          {
+            icon: Mail,
+            title: "Email",
+            content: "info@mayfairfitness.com",
+          },
+                  </div>
+                </div>
+              ))}
+            </div>
 
             <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-6">
               <h4 className="text-white font-bold mb-2">Free Trial Available!</h4>
