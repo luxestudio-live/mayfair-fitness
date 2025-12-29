@@ -102,21 +102,6 @@ export function ContactSection() {
           <span className="text-gold font-bold tracking-widest text-sm">GET IN TOUCH</span>
           <h2 className="text-3xl md:text-5xl font-black text-white mt-2">
             START YOUR <span className="text-gold">JOURNEY</span>
-          {
-            icon: MapPin,
-            title: "Address",
-            content: "264, Dohra Road, near alice green lawn, Suresh Sharma Nagar, Bareilly, Uttar Pradesh 243006",
-          },
-          {
-            icon: Phone,
-            title: "Contact details",
-            content: "+919045876777",
-          },
-          {
-            icon: Mail,
-            title: "Email",
-            content: "info@mayfairfitness.com",
-          },
                   </div>
                 </div>
               ))}
