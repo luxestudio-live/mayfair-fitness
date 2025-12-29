@@ -102,21 +102,21 @@ export function ContactSection() {
           <span className="text-gold font-bold tracking-widest text-sm">GET IN TOUCH</span>
           <h2 className="text-3xl md:text-5xl font-black text-white mt-2">
             START YOUR <span className="text-gold">JOURNEY</span>
-          </h2>
-        </div>
-
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
-          <div>
-            <h3 className="text-2xl font-bold text-white mb-6">Contact Information</h3>
-            <div className="space-y-6 mb-10">
-              {contactInfo.map((info, index) => (
-                <div key={index} className="flex items-start gap-4">
-                  <div className="bg-gold/10 p-3 rounded-lg">
-                    <info.icon className="h-6 w-6 text-gold" />
-                  </div>
-                  <div>
-                    <h4 className="text-white font-medium">{info.title}</h4>
-                    <p className="text-neutral-400">{info.content}</p>
+          {
+            icon: MapPin,
+            title: "Address",
+            content: "264, Dohra Road, near alice green lawn, Suresh Sharma Nagar, Bareilly, Uttar Pradesh 243006",
+          },
+          {
+            icon: Phone,
+            title: "Contact details",
+            content: "+919045876777",
+          },
+          {
+            icon: Mail,
+            title: "Email",
+            content: "info@mayfairfitness.com",
+          },
                   </div>
                 </div>
               ))}
@@ -125,7 +125,7 @@ export function ContactSection() {
             <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-6">
               <h4 className="text-white font-bold mb-2">Free Trial Available!</h4>
               <p className="text-neutral-400 text-sm">
-                Not sure if Fitness Factory is right for you? Sign up for a free 3-day trial and experience our facilities
+                Not sure if MayFair Fitness is right for you? Sign up for a free 3-day trial and experience our facilities
                 firsthand.
               </p>
             </div>

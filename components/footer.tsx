@@ -15,7 +15,7 @@ export function Footer() {
           <div className="flex items-center gap-2">
             <Dumbbell className="h-8 w-8 text-gold" />
             <span className="text-xl font-black text-white tracking-tight">
-              FITNESS <span className="text-gold">FACTORY</span>
+              MAYFAIR <span className="text-gold">FITNESS</span>
             </span>
           </div>
 
@@ -34,7 +34,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-neutral-800 mt-8 pt-8 text-center">
-          <p className="text-neutral-500 text-sm">© {new Date().getFullYear()} Fitness Factory. All rights reserved.</p>
+          <p className="text-neutral-500 text-sm">© {new Date().getFullYear()} MayFair Fitness. All rights reserved.</p>
           <div className="mt-6 flex flex-col items-center">
             <span className="text-xs text-neutral-400 mb-1">Designed & Crafted with <span className="text-gold">passion</span> by</span>
             <a

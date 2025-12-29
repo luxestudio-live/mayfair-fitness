@@ -8,21 +8,21 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Fitness Factory | Transform Your Body & Mind",
+  title: "MayFair Fitness | Transform Your Body & Mind",
   description:
-    "Fitness Factory is a premium fitness center offering 24/7 access, expert trainers, strength training, HIIT classes, CrossFit, and personalized programs to help you achieve your fitness goals.",
-  keywords: ["gym", "fitness", "workout", "personal training", "strength training", "HIIT", "CrossFit", "Fitness Factory"],
-  authors: [{ name: "Fitness Factory" }],
+    "MayFair Fitness is a premium fitness center offering 24/7 access, expert trainers, strength training, HIIT classes, CrossFit, and personalized programs to help you achieve your fitness goals.",
+  keywords: ["gym", "fitness", "workout", "personal training", "strength training", "HIIT", "CrossFit", "MayFair Fitness"],
+  authors: [{ name: "MayFair Fitness" }],
   openGraph: {
-    title: "Fitness Factory | Transform Your Body & Mind",
+    title: "MayFair Fitness | Transform Your Body & Mind",
     description: "Premium fitness center with 24/7 access, expert trainers, and world-class facilities.",
     type: "website",
     locale: "en_US",
-    siteName: "Fitness Factory",
+    siteName: "MayFair Fitness",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fitness Factory | Transform Your Body & Mind",
+    title: "MayFair Fitness | Transform Your Body & Mind",
     description: "Premium fitness center with 24/7 access, expert trainers, and world-class facilities.",
   },
   robots: {

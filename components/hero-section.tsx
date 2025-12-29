@@ -28,7 +28,7 @@ export function HeroSection() {
           <span className="text-gold">INNER POWER</span>
         </h1>
         <p className="text-lg md:text-xl text-neutral-300 max-w-2xl mx-auto mb-8">
-          Transform your body and mind at Fitness Factory. Where champions are made and limits are broken.
+          Transform your body and mind at MayFair Fitness. Where champions are made and limits are broken.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button

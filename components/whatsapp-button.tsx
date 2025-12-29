@@ -3,8 +3,8 @@
 import { MessageCircle } from "lucide-react"
 
 export function WhatsAppButton() {
-  const phoneNumber = "+918604999551" // Fitness Factory phone number, Garwar - Budhaun Nehar Road near mehboob manzil, umarganj, Ballia, Uttar Pradesh 277001
-  const message = "Hi! I'm interested in joining Fitness Factory at Garwar - Budhaun Nehar Road near mehboob manzil, umarganj, Ballia, Uttar Pradesh 277001. Can you provide more information?"
+  const phoneNumber = "+919045876777" // MayFair Fitness phone number, 264, Dohra Road, near alice green lawn, Suresh Sharma Nagar, Bareilly, Uttar Pradesh 243006
+  const message = "Hi! I'm interested in joining MayFair Fitness at 264, Dohra Road, near alice green lawn, Suresh Sharma Nagar, Bareilly, Uttar Pradesh 243006. Can you provide more information?"
 
   const handleClick = () => {
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
